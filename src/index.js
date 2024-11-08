@@ -5,7 +5,7 @@ import App from './App';
 import reportWebVitals from './reportWebVitals';
 
 function HelloWorld(){
-  return <h1 className='greeting'>Hello, world!</h1>
+  return <h1 className='greeting'>Hello!</h1>
 }
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
