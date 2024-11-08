@@ -1,5 +1,5 @@
 const Blogs = () => {
-    return <h1>Blog Articles</h1>;
+    return <h1>Medical History</h1>;
   };
   
   export default Blogs;
