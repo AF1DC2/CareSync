@@ -7,6 +7,15 @@
     --four: #C5C8E6;
 }
 
+@font-face{
+  font-family: 'BPReplay';
+  src: url('../resources/BPreplay.otf');
+}
+
+*{
+  font-family: BPReplay;
+}
+
 body {
     margin: 0;
     padding: 0;
@@ -24,7 +33,7 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    height: 85vh; /* Adjusted to position elements */
+    height: 85vh;
     text-align: center;
     padding-top: 20px;
   }
@@ -35,7 +44,8 @@ body {
   
   .logo {
     max-width: 450px;
-    margin-bottom: auto
+    margin-bottom: auto;
+    cursor: pointer;
   }
   
   .button-container {
